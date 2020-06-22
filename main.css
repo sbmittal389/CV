@@ -136,7 +136,13 @@ a:active {
 .mouse{
   	transition: transform .1s;
 }
+
 .mouse:hover{
   	transform: scale(1.05);
 }
 
+@media only screen and (max-width: 768px){
+	.nav-bar{
+		position: relative;
+	}
+}
